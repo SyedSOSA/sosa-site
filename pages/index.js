@@ -2,6 +2,7 @@
 export default function Home() {
   return (
     <div className="text-center py-20 bg-blue-50">
+      <img src="/images/hero.jpg" alt="Career Growth" className="mx-auto mb-6 rounded-lg shadow" />
       <h1 className="text-4xl font-bold text-blue-900">SOSA Consulting & Services</h1>
       <p className="mt-4 text-lg text-gray-700">Transforming Resumes, Coaching Careers, Building Futures.</p>
       <div className="mt-8">

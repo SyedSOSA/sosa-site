@@ -2,6 +2,9 @@
 export default function Contact() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-6">
+      <div className="mb-6">
+        <img src="/images/contact.jpg" alt="Contact Us" className="rounded-lg shadow" />
+      </div>
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Contact Us</h1>
       <form className="space-y-4 bg-white p-6 shadow rounded-xl">
         <input type="text" placeholder="Name" className="w-full border p-2 rounded" />
