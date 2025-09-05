@@ -5,7 +5,7 @@ export default function Biz(){
       <h1 className="text-3xl font-bold">Business Setup Services</h1>
       <p>
         We specialize in UAE business setup support, guiding you through Mainland, Freezone, 
-        and Offshore company formation. 
+        and Offshore company formation.
       </p>
       <ul className="list-disc pl-6 text-gray-300">
         <li>Mainland Company Registration</li>

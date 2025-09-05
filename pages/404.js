@@ -1,1 +1,1 @@
-export default function NotFound(){return <p className='text-center'>Page not found</p>}
+export default function NotFound(){return <p className='text-center mt-10'>Page not found</p>}

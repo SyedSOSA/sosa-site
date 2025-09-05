@@ -1,31 +1,29 @@
 
-# SOSA Hybrid Site
+# SOSA Full Site
 
-A stable, production-ready Next.js 14 + TailwindCSS website combining features of both previous builds.
+Production-ready Next.js 14 + TailwindCSS site.
 
 ## Features
-- Multi-page site: Home, About, Services, Recruiters, Business Setup, Contact, 404
-- TailwindCSS styling
-- Clean header/footer layout
-- Contact form powered by Formspree
-- Pure JavaScript (no TypeScript, no Supabase/Auth)
-- Deploy-ready on Vercel
+- Home, About, Services, Recruiters (Sign-In), Business Setup, Contact, 404
+- Services with "Book Consultation" buttons (link to Contact form)
+- Recruiters page locked with simple login (test@sosa.com / 1234)
+- Tailwind styling, responsive layout
+- Pure JavaScript (no TypeScript, no Supabase)
 
 ## Run locally
 ```bash
 npm install
 npm run dev
 ```
-Visit http://localhost:3000
 
-## Production build
+## Build for production
 ```bash
 npm run build
 npm start
 ```
 
 ## Deploy on Vercel
-1. Push this project to GitHub
-2. Import repo in Vercel (Framework: Next.js)
+1. Push to GitHub
+2. Import repo in Vercel (Next.js framework)
 3. Build command: `npm run build`
 4. Output dir: `.next`

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Layout({children}){
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="border-b border-gray-800">
+      <header className="border-b border-gray-800 bg-gray-900">
         <div className="max-w-6xl mx-auto flex justify-between p-4">
           <Link href="/" className="font-bold text-xl">SOSA Consulting</Link>
           <nav className="flex gap-4 text-sm">
@@ -17,7 +17,7 @@ export default function Layout({children}){
         </div>
       </header>
       <main className="flex-1 max-w-6xl mx-auto p-6">{children}</main>
-      <footer className="border-t border-gray-800 text-center text-gray-400 p-6">
+      <footer className="border-t border-gray-800 text-center text-gray-400 p-6 bg-gray-900">
         © {new Date().getFullYear()} SOSA Consulting & Services
       </footer>
     </div>
