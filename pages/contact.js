@@ -1,25 +1,21 @@
 
-export default function Contact(){
+export default function Contact() {
   return (
-    <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Contact Us</h1>
-      <form action="https://formspree.io/f/mayvowqe" method="POST" className="space-y-3 max-w-md">
-        <input name="name" placeholder="Name" required className="w-full p-2 border border-gray-800 rounded"/>
-        <input type="email" name="email" placeholder="Email" required className="w-full p-2 border border-gray-800 rounded"/>
-        <input type="tel" name="phone" placeholder="Phone" className="w-full p-2 border border-gray-800 rounded"/>
-        <select name="service" className="w-full p-2 border border-gray-800 rounded">
-          <option>Resume Writing & Review</option>
-          <option>Career Development Coaching</option>
-          <option>Interview Preparation</option>
-          <option>Corporate Training</option>
-          <option>Team Building</option>
-          <option>Leadership Development</option>
-          <option>Executive Coaching</option>
-          <option>Life Coaching</option>
+    <div className="max-w-4xl mx-auto py-12 px-6">
+      <h1 className="text-3xl font-bold text-blue-900 mb-6">Contact Us</h1>
+      <form className="space-y-4 bg-white p-6 shadow rounded-xl">
+        <input type="text" placeholder="Name" className="w-full border p-2 rounded" />
+        <input type="email" placeholder="Email" className="w-full border p-2 rounded" />
+        <input type="tel" placeholder="Phone" className="w-full border p-2 rounded" />
+        <select className="w-full border p-2 rounded">
+          <option>Service Interested</option>
+          <option>Resume Writing</option>
+          <option>Interview Prep</option>
+          <option>Coaching</option>
           <option>Business Setup</option>
         </select>
-        <textarea name="message" placeholder="Message" className="w-full p-2 border border-gray-800 rounded"/>
-        <button className="px-4 py-2 bg-indigo-600 text-white rounded">Send</button>
+        <textarea placeholder="Message" className="w-full border p-2 rounded"></textarea>
+        <button type="submit" className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-blue-900 transition">Submit</button>
       </form>
     </div>
   )
