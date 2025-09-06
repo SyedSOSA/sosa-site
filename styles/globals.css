@@ -1,17 +1,16 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* styles/globals.css */
 body {
-  @apply bg-gray-50 text-gray-900;
-  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
 }
 
-h1, h2, h3, h4 {
-  @apply text-blue-900 font-bold;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 button {
-  @apply bg-blue-700 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 hover:text-blue-900 transition;
+  cursor: pointer;
 }
