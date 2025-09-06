@@ -1,13 +1,15 @@
-
 export default function Home() {
   return (
-    <div className="text-center py-20 bg-blue-50">
-      <img src="/images/hero.jpg" alt="Career Growth" className="mx-auto mb-6 rounded-lg shadow" />
-      <h1 className="text-4xl font-bold text-blue-900">SOSA Consulting & Services</h1>
-      <p className="mt-4 text-lg text-gray-700">Transforming Resumes, Coaching Careers, Building Futures.</p>
-      <div className="mt-8">
-        <a href="/services" className="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-yellow-500 hover:text-blue-900 transition">Explore Our Services</a>
+    <section
+      className="h-96 flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/cover.jpg')" }}
+    >
+      <h1 className="text-4xl font-bold">SOSA Consulting & Services</h1>
+      <p className="mt-4 text-xl">Transforming Resumes, Coaching Careers, Building Futures.</p>
+      <div className="mt-6">
+        <a href="/services" className="bg-yellow-500 px-4 py-2 rounded text-black mr-3">Explore Services</a>
+        <a href="/contact" className="bg-white px-4 py-2 rounded text-blue-900">Book Consultation</a>
       </div>
-    </div>
+    </section>
   )
 }

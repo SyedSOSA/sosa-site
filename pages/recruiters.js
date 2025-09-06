@@ -1,15 +1,34 @@
+import { useState } from 'react'
 
 export default function Recruiters() {
+  const [loggedIn, setLoggedIn] = useState(false)
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
+  const handleLogin = () => {
+    if (email === 'test@sosa.com' && password === 'sosa123') {
+      setLoggedIn(true)
+    } else {
+      alert('Invalid credentials')
+    }
+  }
+
+  if (!loggedIn) {
+    return (
+      <div className="p-10 text-center">
+        <h2 className="text-2xl font-bold mb-4">🔒 Recruiter Directory</h2>
+        <p className="mb-4">Please sign in to view recruiter details.</p>
+        <input placeholder="Email" className="border p-2 m-2" onChange={e => setEmail(e.target.value)} />
+        <input placeholder="Password" type="password" className="border p-2 m-2" onChange={e => setPassword(e.target.value)} />
+        <button onClick={handleLogin} className="bg-blue-900 text-white px-4 py-2 rounded">Sign In</button>
+      </div>
+    )
+  }
+
   return (
-    <div className="text-center py-20">
-      <img src="/images/lock.png" alt="Secure Access" className="mx-auto mb-6 h-32" />
-      <h1 className="text-2xl font-bold text-blue-900 mb-4">Recruiter Directory 🔒</h1>
-      <p className="text-gray-700 mb-6">Please sign in to access the recruiter directory.</p>
-      <form className="max-w-md mx-auto bg-white p-6 shadow rounded-xl space-y-4">
-        <input type="email" placeholder="Email" className="w-full border p-2 rounded" />
-        <input type="password" placeholder="Password" className="w-full border p-2 rounded" />
-        <button type="submit" className="w-full bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-blue-900 transition">Sign In</button>
-      </form>
+    <div className="p-10">
+      <h2 className="text-2xl font-bold mb-4">Recruiter Directory</h2>
+      <p>✅ Welcome, you are signed in! Recruiter details will appear here.</p>
     </div>
   )
 }

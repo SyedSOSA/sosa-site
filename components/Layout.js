@@ -1,24 +1,24 @@
-
-import Link from 'next/link';
-
-export default function Layout({children}){
+export default function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen">
-      <header className="border-b border-gray-800 bg-gray-900">
-        <div className="max-w-6xl mx-auto flex justify-between p-4">
-          <Link href="/" className="font-bold text-xl">SOSA Consulting</Link>
-          <nav className="flex gap-4 text-sm">
-            <Link href="/services">Services</Link>
-            <Link href="/recruiters">Recruiters</Link>
-            <Link href="/business-setup">Business Setup</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
-          </nav>
-        </div>
+    <div>
+      <header className="bg-blue-900 text-white p-4 flex justify-between">
+        <img src="/images/logo.png" alt="SOSA Logo" className="h-10" />
+        <nav>
+          <a href="/" className="mr-4">Home</a>
+          <a href="/about" className="mr-4">About</a>
+          <a href="/services" className="mr-4">Services</a>
+          <a href="/recruiters" className="mr-4">Recruiters</a>
+          <a href="/contact" className="mr-4">Contact</a>
+        </nav>
       </header>
-      <main className="flex-1 max-w-6xl mx-auto p-6">{children}</main>
-      <footer className="border-t border-gray-800 text-center text-gray-400 p-6 bg-gray-900">
-        © {new Date().getFullYear()} SOSA Consulting & Services
+      <main>{children}</main>
+      <footer className="bg-blue-900 text-white p-4 text-center">
+        <p>© 2025 SOSA Consulting. All rights reserved.</p>
+        <nav>
+          <a href="/faqs" className="mr-4">FAQs</a>
+          <a href="/privacy" className="mr-4">Privacy Policy</a>
+          <a href="/terms">Terms & Conditions</a>
+        </nav>
       </footer>
     </div>
   )

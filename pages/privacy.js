@@ -1,0 +1,1 @@
+export default function Page() { return (<div className='p-10'><h2>Privacy Policy</h2><p>We value your privacy. This is placeholder text for the privacy policy.</p></div>) }
