@@ -1,5 +1,5 @@
 {
-  "name": "sosa-consulting-site",
+  "name": "sosa-nextjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,13 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "tailwindcss": "3.4.1",
-    "autoprefixer": "10.4.17",
-    "postcss": "8.4.38"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.0"
   }
 }

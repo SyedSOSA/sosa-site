@@ -1,15 +1,13 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
-    <section
-      className="h-96 flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/cover.jpg')" }}
-    >
-      <h1 className="text-4xl font-bold">SOSA Consulting & Services</h1>
-      <p className="mt-4 text-xl">Transforming Resumes, Coaching Careers, Building Futures.</p>
-      <div className="mt-6">
-        <a href="/services" className="bg-yellow-500 px-4 py-2 rounded text-black mr-3">Explore Services</a>
-        <a href="/contact" className="bg-white px-4 py-2 rounded text-blue-900">Book Consultation</a>
-      </div>
-    </section>
+    <div className="flex flex-col items-center justify-center min-h-screen py-6 bg-gray-50">
+      <h1 className="text-4xl font-bold mb-4">Welcome to SOSA Consulting & Services</h1>
+      <p className="mb-6">Explore our services and offerings.</p>
+      <Link href="/sosa" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
+        Go to SOSA Services
+      </Link>
+    </div>
   )
 }
