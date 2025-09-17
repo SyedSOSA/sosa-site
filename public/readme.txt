@@ -1,0 +1,1 @@
+Place your public images here (logo, course images, client photos).

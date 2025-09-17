@@ -1,1 +1,8 @@
-export default function Page() { return (<div className='p-10'><h2>Business Setup</h2><p>Helping entrepreneurs and companies establish their businesses in India, UAE & beyond...</p></div>) }
+export default function BusinessSetup() {
+  return (
+    <div className="min-h-screen p-8 bg-white">
+      <h1 className="text-3xl font-bold mb-4">Business Setup</h1>
+      <p>We assist with business setup services. Placeholder content — include details about packages, process, and contact here.</p>
+    </div>
+  )
+}

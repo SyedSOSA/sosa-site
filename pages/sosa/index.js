@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import SosaLayout from '../../components/SosaLayout'
 import Link from 'next/link'
+import SosaLayout from '../../components/SosaLayout'
 
 export default function SosaHome() {
   return (
