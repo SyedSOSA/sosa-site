@@ -1,20 +1,17 @@
-import Head from 'next/head'
+import Layout from '../../components/Layout'
 import Link from 'next/link'
-import SosaLayout from '../../components/SosaLayout'
 
 export default function SosaHome() {
   return (
-    <SosaLayout>
-      <Head>
-        <title>SOSA Services | SOSA</title>
-        <meta name="description" content="Explore all SOSA services in one place." />
-      </Head>
-      <h1 className="text-3xl font-bold mb-6 text-center">Explore SOSA Services</h1>
-      <div className="flex flex-col space-y-4">
-        <Link href="/sosa/personalize-job-support" className="px-6 py-3 bg-blue-600 text-white rounded-lg text-center hover:bg-blue-700">Personalize Job Support</Link>
-        <Link href="/sosa/resume-cv-writing-services" className="px-6 py-3 bg-green-600 text-white rounded-lg text-center hover:bg-green-700">Resume & CV Writing Services</Link>
-        <Link href="/sosa/master-power-bi-and-land-your-dream-job-in-dubai" className="px-6 py-3 bg-purple-600 text-white rounded-lg text-center hover:bg-purple-700">Master Power BI & Land Your Dream Job in Dubai</Link>
-      </div>
-    </SosaLayout>
+    <Layout>
+      <section className="py-12 container mx-auto">
+        <h1 className="text-3xl font-bold mb-6 text-center">SOSA Services</h1>
+        <div className="grid md:grid-cols-3 gap-6">
+          <Link href="/sosa/personalize-job-support"><a className="p-6 bg-white rounded-lg shadow block text-center">Personalize Job Support</a></Link>
+          <Link href="/sosa/resume-cv-writing-services"><a className="p-6 bg-white rounded-lg shadow block text-center">Resume & CV Writing Services</a></Link>
+          <Link href="/sosa/master-power-bi-and-land-your-dream-job-in-dubai"><a className="p-6 bg-white rounded-lg shadow block text-center">Master Power BI Masterclass</a></Link>
+        </div>
+      </section>
+    </Layout>
   )
 }

@@ -1,1 +1,1 @@
-Add real client photos here named: farheen.jpg, mohit.jpg, sheethal.jpg, kavya.jpg, shruthi.jpg. Currently placeholders can be used.
+Add real images here (hero banners, client photos). Suggested names: farheen.jpg, mohit.jpg, sheethal.jpg, kavya.jpg, shruthi.jpg

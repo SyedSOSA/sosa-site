@@ -1,14 +1,15 @@
-# SOSA Next.js - Full Site with Success Stories
+# SOSA Next.js - Final Project (copy into folder and run)
 
-This project is a minimal Next.js site with Tailwind and includes a Success Stories grid and homepage carousel.
+This project is a Next.js + Tailwind site prefilled with pages, blog, success stories, and contact form.
 
 Run locally:
-
-```
-npm install
-npm run dev
-```
+1. npm install
+2. npm run dev
+3. Open http://localhost:3000
 
 Notes:
-- Place real client images in /public/images with the file names specified in public/images/readme.txt
-- You can update content in pages/ and posts/ for the blog.
+- Contact form uses https://formsubmit.co (email set to syed@sosaconsult.com). Change to your email in pages/contact.js if required.
+- Add real images to /public/images
+- Add more blog posts by placing .md files in /posts with front-matter: title, date, category, excerpt, tags.
+
+Built on 2025-09-18

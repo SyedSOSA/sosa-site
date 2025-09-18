@@ -1,8 +1,12 @@
+import Layout from '../components/Layout'
+
 export default function About() {
   return (
-    <div className="min-h-screen p-8 bg-white">
-      <h1 className="text-3xl font-bold mb-4">About SOSA</h1>
-      <p>SOSA Consulting & Services helps professionals and companies with career services, recruitment support, and business setup assistance. Placeholder content — replace with your real copy.</p>
-    </div>
+    <Layout>
+      <section className="py-12 container mx-auto">
+        <h1 className="text-3xl font-bold mb-4">About SOSA Consulting</h1>
+        <p>SOSA provides career services, resume writing, interview coaching, and training to help professionals land roles in India & the UAE. We combine recruitment insight with hands-on coaching.</p>
+      </section>
+    </Layout>
   )
 }
