@@ -1,9 +1,9 @@
 ---
-title: "5 Resume Mistakes That Cost You Interviews"
-date: "2025-07-15"
-category: "Resume Writing"
-excerpt: "Common resume pitfalls and how to fix them for better response rates."
-tags: ["resume","ats","tips"]
+title: "Dubai Interview Preparation: Key Tips"
+date: "2025-07-10"
+category: "Interview Prep"
+excerpt: "Mock interview guidance and UAE-specific preparation tips."
+tags: ["interview","uae"]
 ---
 
-Avoid generic objectives, missing keywords, poor formatting, and unclear achievements. Use metrics to showcase impact.
+Practical advice for behavioral, technical and HR rounds in Dubai interviews.

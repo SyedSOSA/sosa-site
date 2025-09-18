@@ -1,11 +1,11 @@
-
-export default function PrivacyPolicy() {
+import Layout from '../components/Layout'
+export default function Privacy(){
   return (
-    <div className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-3xl font-bold text-blue-900 mb-6">Privacy Policy</h1>
-      <p className="text-gray-700">
-        SOSA Consulting & Services values your privacy. We only collect necessary information and do not share your data without consent.
-      </p>
-    </div>
+    <Layout>
+      <section className="py-12 container mx-auto">
+        <h1 className="text-3xl font-bold">Privacy Policy</h1>
+        <p>This is a sample privacy policy. Replace with your legal text.</p>
+      </section>
+    </Layout>
   )
 }

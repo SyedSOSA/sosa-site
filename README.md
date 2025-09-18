@@ -1,15 +1,11 @@
-# SOSA Next.js - Final Project (copy into folder and run)
+# SOSA Next.js - Full Updated Project
 
-This project is a Next.js + Tailwind site prefilled with pages, blog, success stories, and contact form.
+This project includes all requested pages and features.
 
 Run locally:
 1. npm install
 2. npm run dev
-3. Open http://localhost:3000
 
-Notes:
-- Contact form uses https://formsubmit.co (email set to syed@sosaconsult.com). Change to your email in pages/contact.js if required.
-- Add real images to /public/images
-- Add more blog posts by placing .md files in /posts with front-matter: title, date, category, excerpt, tags.
+Contact form uses FormSubmit (syed@sosaconsult.com). Replace as needed.
 
 Built on 2025-09-18

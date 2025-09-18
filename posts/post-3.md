@@ -1,9 +1,9 @@
 ---
-title: "Personalized Job Support vs Generic Career Coaching"
+title: "5 Resume Mistakes That Cost You Interviews"
 date: "2025-06-20"
-category: "Career Tips"
-excerpt: "Why tailored job support delivers faster outcomes than one-size-fits-all coaching."
-tags: ["coaching","job-support","careers"]
+category: "Resume Writing"
+excerpt: "Common resume mistakes and how to fix them."
+tags: ["resume","ats"]
 ---
 
-Personalized job support includes targeted applications, company referrals and hands-on interview prep — which leads to better outcomes.
+Use metrics, tailor keywords and avoid irrelevant details.

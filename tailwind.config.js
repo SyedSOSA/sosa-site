@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         sosa: {
-          primary: '#1E3A8A', // royal blue
-          accent: '#14B8A6'   // teal
+          primary: '#1E3A8A',
+          accent: '#14B8A6'
         }
       }
     }
