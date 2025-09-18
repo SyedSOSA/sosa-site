@@ -1,6 +1,6 @@
-# SOSA Next.js - Placeholder Full Site
+# SOSA Next.js - Full Site with Success Stories
 
-This repository contains a minimal Next.js project with placeholder pages to match your deployed site and the new /sosa service pages. Replace copy and images as required.
+This project is a minimal Next.js site with Tailwind and includes a Success Stories grid and homepage carousel.
 
 Run locally:
 
@@ -8,3 +8,7 @@ Run locally:
 npm install
 npm run dev
 ```
+
+Notes:
+- Place real client images in /public/images with the file names specified in public/images/readme.txt
+- You can update content in pages/ and posts/ for the blog.
