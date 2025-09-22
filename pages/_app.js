@@ -1,12 +1,12 @@
 import '../styles/globals.css'
-import { useEffect } from 'react'
-
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    const stored = localStorage.getItem('theme')
-    if (stored === 'dark') document.documentElement.classList.add('dark')
-  }, [])
-  return <Component {...pageProps} />
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+export default function App({Component, pageProps}){
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow"><Component {...pageProps} /></main>
+      <Footer />
+    </div>
+  )
 }
-
-export default MyApp

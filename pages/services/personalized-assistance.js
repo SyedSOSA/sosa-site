@@ -1,0 +1,1 @@
+export default function Page(){ return (<div className='max-w-4xl mx-auto p-8'><h1 className='text-2xl font-bold'>Personalized Job Assistance</h1><p className='mt-2 text-gray-700'>Details coming soon.</p></div>) }

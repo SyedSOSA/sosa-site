@@ -1,9 +1,1 @@
-
-export default function ResumeWriting() {
-  return (
-    <main style={{fontFamily: 'Arial, sans-serif', padding: 40}}>
-      <h1>Resume Writing</h1>
-      <p>Service details placeholder.</p>
-    </main>
-  )
-}
+export default function ResumeWriting(){ return (<div className='max-w-4xl mx-auto p-8'><h1 className='text-2xl font-bold'>Resume Writing</h1><p className='mt-2 text-gray-700'>We craft resumes optimized for ATS and UAE roles.</p></div>) }

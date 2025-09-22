@@ -1,18 +1,15 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}"
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        sosa: {
-          primary: '#1E3A8A',
-          accent: '#14B8A6'
-        }
+        primary: '#0f172a',
+        accent: '#D4AF37'
       }
     }
   },
-  plugins: []
+  plugins: [],
 }

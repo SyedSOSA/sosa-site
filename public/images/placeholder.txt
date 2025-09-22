@@ -1,1 +1,1 @@
-Replace this file with real images (jpg/png) in /public/images/
+Replace with real images in /public/images/

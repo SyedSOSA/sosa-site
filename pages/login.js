@@ -1,1 +1,1 @@
-<export default function Login(){return (<main style={{padding:40}}><h1>Login / Register</h1></main>)}>
+export default function Login(){ return (<div className='max-w-md mx-auto p-8'><h1 className='text-2xl font-bold'>Login / Register</h1><p className='mt-2 text-gray-600'>Placeholder UI. Integrate auth later.</p></div>) }
