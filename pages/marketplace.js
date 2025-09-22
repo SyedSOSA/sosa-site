@@ -1,0 +1,1 @@
+<export default function Marketplace(){return (<main style={{padding:40}}><h1>Jobs Marketplace (reads from /data/jobs.json)</h1></main>)}>

@@ -1,0 +1,1 @@
+<export default function Testimonials(){return (<main style={{padding:40}}><h1>Testimonials</h1></main>)}>

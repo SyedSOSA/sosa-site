@@ -1,0 +1,1 @@
+<export default function Blogs(){return (<main style={{padding:40}}><h1>Blogs</h1></main>)}>

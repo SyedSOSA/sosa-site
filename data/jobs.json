@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechCorp",
+    "location": "Dubai",
+    "type": "Full-time",
+    "apply": "mailto:syed@sosaconsult.com?subject=Apply%20Frontend%20Developer"
+  },
+  {
+    "id": 2,
+    "title": "Hotel Manager",
+    "company": "HospitalityX",
+    "location": "Sharjah",
+    "type": "Full-time",
+    "apply": "mailto:syed@sosaconsult.com?subject=Apply%20Hotel%20Manager"
+  }
+]
